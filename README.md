@@ -77,10 +77,7 @@
 # <br>⚡️ Запуск
 - **Linux**
   - ```
-    cd Blum
-    ```
-  - ```
-    python3 HPV_Blum.py
+    cd Blum && python3 HPV_Blum.py
     ```
 - **Windows**
   - Запустите ***"[HPV] Start on Windows.bat"***
