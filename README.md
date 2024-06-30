@@ -19,19 +19,26 @@
 </div>
 
 # <br><br>🧬 Предварительная подготовка
-
-- **Установка**
-  ```
-  git clone https://github.com/A-KTO-Tbl/Blum && cd INSIDE && pip3 install -r Core/requirements.txt
-  ```
-- **Запуск с графическим интерфейсом**
-  ```
-  python3 GUI.py
-  ```
-- **Запуск с web интерфейсом**
-  ```
-  python3 WEB.py
-  ```
+- **Linux**
+  - ```
+    apt update && apt upgrade -y
+    ```
+  - ```apt install -y python git```
+  - ```git clone https://github.com/A-KTO-Tbl/Blum```
+  - ```pip3 install -r Blum\Core\Tools\requirements.txt```
+- **Windows**
+  - Для начала нужно установить [Python](https://www.python.org/downloads/release/python-3103/) (не рекомендуется более новую версию чем 3.10.3) и [Git](https://git-scm.com/download/win);
+  - Создаём папку в любом месте, например на рабочем столе. После чего открываем её;
+  - В верхней части проводника жмём по [пути](https://telegra.ph/file/f4695bbc6a7c4e142c758.jpg), и вписываем "*CMD*";
+  - Запустится CMD в текущей директории. Далее просто вводим следующие команды:
+    - ```git clone https://github.com/A-KTO-Tbl/Blum```
+    - ```pip install -r Blum\Core\Tools\requirements.txt```
+- **Android**
+  - Для начала нужно установить [Termux](https://github.com/termux/termux-app/releases);
+  - Открываем Termux и вводим следующие команды:
+      ```
+      pkg update && pkg upgrade -y && pkg install -y python git
+      ```
 
 # <br>🌐 Настройка Proxy
 - **Установка**
