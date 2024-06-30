@@ -23,21 +23,30 @@
   - ```
     apt update && apt upgrade -y
     ```
-  - ```apt install -y python git```
-  - ```git clone https://github.com/A-KTO-Tbl/Blum```
-  - ```pip3 install -r Blum\Core\Tools\requirements.txt```
+  - ```
+    apt install -y python git
+    ```
+  - ```
+    git clone https://github.com/A-KTO-Tbl/Blum
+    ```
+  - ```
+    pip3 install -r Blum\Core\Tools\requirements.txt
+    ```
 - **Windows**
   - Для начала нужно установить [Python](https://www.python.org/downloads/release/python-3103/) (не рекомендуется более новую версию чем 3.10.3) и [Git](https://git-scm.com/download/win);
   - Создаём папку в любом месте, например на рабочем столе. После чего открываем её;
   - В верхней части проводника жмём по [пути](https://telegra.ph/file/f4695bbc6a7c4e142c758.jpg), и вписываем "*CMD*";
   - Запустится CMD в текущей директории. Далее просто вводим следующие команды:
-    - ```git clone https://github.com/A-KTO-Tbl/Blum```
-    - ```pip install -r Blum\Core\Tools\requirements.txt```
-- **Android**
-  - Для начала нужно установить [Termux](https://github.com/termux/termux-app/releases);
-  - Открываем Termux и вводим следующие команды:
+    - ```
+      git clone https://github.com/A-KTO-Tbl/Blum
       ```
-      pkg update && pkg upgrade -y && pkg install -y python git
+    - ```
+      pip install -r Blum\Core\Tools\requirements.txt
+      ```
+- **Android**
+  - Для вашего удобства рекомендуется выполнить первоначальную настройку скрипта на ПК. После этого загрузите настроенную версию скрипта на GitHub и клонируйте её в [Termux](https://github.com/termux/termux-app/releases). Затем просто запустите скрипт командой:
+    - ```
+      python HPV_Blum.py
       ```
 
 # <br>🌐 Настройка Proxy
